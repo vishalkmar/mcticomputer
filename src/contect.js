@@ -144,7 +144,7 @@ function Contact() {
             <div className="col-md-6 d-flex justify-content-center align-items-center ">
               {/* Left Section */}
 
-              <img src={contimage} alt="Description of the image"/>
+              <img src={contimage} alt="Description"/>
 
 
             </div>

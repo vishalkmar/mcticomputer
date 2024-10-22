@@ -30,7 +30,8 @@
       "react-app"
     ],
     "rules": {
-      "no-unused-vars": "off" 
+      "no-unused-vars": "off",
+      "react/jsx-no-duplicate-props": "warn"
     }
   },
   "browserslist": {
