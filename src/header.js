@@ -114,7 +114,7 @@ function Header() {
                                 <button
                                     className="dropdown-toggle btn bg-light" 
                                     id="navbarDropdown"
-                                    role="button"
+                                  
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >

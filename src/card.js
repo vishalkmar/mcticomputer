@@ -8,7 +8,7 @@ function Card({ title, text, image,navigateurl}) {
                 <img 
                     className="card-img-top img-fluid" 
                     src={image} 
-                  
+                     alr=""
                     style={{ height: "200px", objectFit: "cover" }} // Ensures uniform image size
                 />
                 <div className="card-body my-3">
