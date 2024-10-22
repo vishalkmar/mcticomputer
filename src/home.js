@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import Header from "./header";
 import AllCards from "./allcarddata";
 import { useNavigate } from "react-router-dom";

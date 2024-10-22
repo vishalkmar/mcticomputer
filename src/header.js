@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { FaBars, FaWhatsapp, FaInstagram, FaLinkedin, FaVoicemail, FaPhone, FaEnvelope, FaClock } from "react-icons/fa"; // For Icons
+import { FaBars, FaWhatsapp, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaClock } from "react-icons/fa"; // For Icons
 import { useNavigate } from "react-router-dom";
 
 function Header() {
