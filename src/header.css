@@ -1,0 +1,14 @@
+/* Additional styling for social media icons */
+.navbar-nav .fa {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .fa:hover {
+    color: #ddd; /* Change color on hover */
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        margin-bottom: 3.5rem; /* Space for the fixed login button */
+    }
+}

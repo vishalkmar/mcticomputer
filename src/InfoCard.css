@@ -1,0 +1,74 @@
+.hover-card {
+    width: 100%; /* Full width for mobile */
+    position: relative;
+    overflow: visible; /* Allow the hanging div to be visible outside */
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info-container {
+    position: absolute;
+    bottom: -80px; /* Adjust hanging position */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    padding: 20px;
+    background: #dc3545; /* Bootstrap danger color */
+    transition: all 0.4s ease-in-out;
+    z-index: 1; /* Ensure it stays on top */
+  }
+  
+  .hover-card:hover .info-container {
+    bottom: -20px; /* Move up slightly on hover */
+  }
+  
+  .info-container h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .info-container p {
+    font-size: 14px;
+    color: #fff; /* Ensure text is white */
+    margin: 10px 0 0;
+  }
+  
+  .nav {
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-item {
+    margin: 10px 0; /* Add margin for spacing between items */
+  }
+  .hover-opacity-75 {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+  }
+  
+  .position-relative:hover .hover-opacity-75 {
+    opacity: 0.75; /* Show on hover */
+  }
+  
+  .img-fluid {
+    width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .border-light {
+    border-color: rgba(255, 255, 255, 0.2); /* Light border for contrast */
+  }
+  
