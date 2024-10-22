@@ -4,6 +4,14 @@ import AllCards from "./allcarddata";
 import { useNavigate } from "react-router-dom";
 import HoverCard from "./teamcard";
 import Footer from "./footer";
+import tanveer from "./images/team/taveerSir.jfif";
+import mam from './images/team/mam.jfif';
+import vishal from './images/team/vishal.jpg';
+import cone from './images/team/imone.jpg';
+import ctwo from './images/team/imtwo.jpg';
+import cthree from './images/team/imthree.jpg';
+import cfour from './images/team/imgfour.jpg';
+import cfiveimage from './images/team/ifive.jpg';
 
 function Home() {
     const navigate = useNavigate();
@@ -18,16 +26,24 @@ function Home() {
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li> {/* Added for the 5th slide */}
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="d-block w-100" src="https://thumbs.dreamstime.com/b/cheerful-male-student-searching-website-education-info-studying-e-learning-via-laptop-application-happy-caucasian-man-327092506.jpg" alt="First slide" style={{ objectFit: 'cover', height: '90vh' }} />
+                            <img className="d-block w-100" src={cone} alt="First slide" style={{ objectFit: 'cover', height: '90vh' }} />
                         </div>
                         <div className="carousel-item">
-                            <img className="d-block w-100" src="https://img.freepik.com/free-photo/creative-people-working-together_23-2147663776.jpg" alt="Second slide" style={{ objectFit: 'cover', height: '90vh' }} />
+                            <img className="d-block w-100" src={ctwo} alt="Second slide" style={{ objectFit: 'cover', height: '90vh' }} />
                         </div>
                         <div className="carousel-item">
-                            <img className="d-block w-100" src="https://media.istockphoto.com/id/77930942/photo/four-businesspeople-in-office-applauding.jpg?s=612x612&w=0&k=20&c=ZviiS-eEOnPH_fOJ9McW7q-hlw2PxypBvoIcuuFBIsQ=" alt="Third slide" style={{ objectFit: 'cover', height: '90vh' }} />
+                            <img className="d-block w-100" src={cthree} alt="Third slide" style={{ objectFit: 'cover', height: '90vh' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src={cfour} alt="Fourth slide" style={{ objectFit: 'cover', height: '90vh' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src={cfiveimage} alt="Fifth slide" style={{ objectFit: 'cover', height: '90vh' }} /> {/* Ensure the image is correct */}
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -66,22 +82,22 @@ function Home() {
                 <div className="container py-4">
                     <div className="row g-4">
                         <HoverCard
-                            image="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg"
-                            title="Tarun Rajput"
-                            description="Founder, NTMGS"
-                            link="https://www.instagram.com/tarunrajputmodelmentor/"
+                            image={tanveer}
+                            title="Tanveer Sir"
+                            description="Master in Accounting"
+                            link="https://www.instagram.com/mcti_computer_institute/"
                         />
                         <HoverCard
-                            image="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg"
-                            title="Tarun Rajput"
-                            description="Founder, NTMGS"
-                            link="https://www.instagram.com/tarunrajputmodelmentor/"
+                            image={mam}
+                            title="Gunjan Rajput"
+                            description="Front Desk Manager"
+                            link="https://www.instagram.com/mcti_computer_institute/"
                         />
                         <HoverCard
-                            image="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg"
-                            title="Tarun Rajput"
-                            description="Founder, NTMGS"
-                            link="https://www.instagram.com/tarunrajputmodelmentor/"
+                            image={vishal}
+                            title="Vishal Kumar"
+                            description="software Engineer"
+                            link="https://www.linkedin.com/in/vishal-kumar-839490327/"
                         />
                     </div>
                 </div>

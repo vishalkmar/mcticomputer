@@ -35,7 +35,7 @@ function Header() {
                             <Link to="https://wa.me/9891338787" className="text-light me-2">
                                 <FaWhatsapp size={20} />
                             </Link>
-                            <Link to="#" className="text-light me-2">
+                            <Link to="https://www.instagram.com/mcti_computer_institute/" className="text-light me-2">
                                 <FaInstagram size={20} />
                             </Link>
                             <Link to="https://www.linkedin.com/in/vishal-kumar-839490327/" className="text-light me-2">

@@ -11,7 +11,7 @@ function Card({ title, text, image,navigateurl}) {
                     alt="Card image cap" 
                     style={{ height: "200px", objectFit: "cover" }} // Ensures uniform image size
                 />
-                <div className="card-body">
+                <div className="card-body my-3">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{text}</p>
                 </div>

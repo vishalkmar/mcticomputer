@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const HoverCard = ({ image, title, description, link }) => {
   return (
-    <div className="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
-      <div className="d-flex flex-column align-items-center">
-        <div className="pt-4 px-3 border-top border-bottom border-light w-100">
+    <div className="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4"> {/* Add margin bottom for spacing */}
+      <div className="d-flex flex-column align-items-center card-container"> {/* Added class for styling */}
+        <div className="pt-4 px-3 border-top border-bottom border-light w-100 mx-2">
           <div className="position-relative w-100">
-            <img src={image} alt={title} className="img-fluid" />
+            <img src={image} alt={title} className="img-fluid card-image" /> {/* Added class for responsive image */}
             <div className="d-flex justify-content-center align-items-center position-absolute top-0 w-100 h-100 bg-dark opacity-0 hover-opacity-75">
               <div className="cursor-pointer">
                 <Link to={link}>
