@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FaBars, FaWhatsapp, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaClock } from "react-icons/fa"; // For Icons
 import { useNavigate } from "react-router-dom";
-
+import mainlogo from "./images/logo/mainlogo.png";
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -51,7 +51,7 @@ function Header() {
                     {/* Logo */}
                     <Link className="navbar-brand" to="/">
                         <img
-                            src="https://dynamic.brandcrowd.com/preview/logodraft/df5efd7b-b0cd-4fd0-b95e-35950507f1f4/image/large.png"
+                            src={mainlogo}
                             width="80"
                             height="60"
                             alt="Logo"
