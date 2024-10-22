@@ -141,7 +141,7 @@ function Header() {
                                         className="nav-link dropdown-toggle text-light"
                                         to="#"
                                         id="navbarDropdownMobile"
-                                        role="button"
+                                      
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
