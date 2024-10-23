@@ -21,7 +21,7 @@ function ForgotPassword() {
     // Construct the data to send
     const data = { email };
 
-    axios.post("http://localhost:8000/api/user/forgetpassword", data) // Use POST instead of PUT
+    axios.post("https://mcticomputerbackend.onrender.com/api/user/forgetpassword", data) // Use POST instead of PUT
       .then((res) => {
         console.log("Response:", res.data);
         alert("A New Password has been sent to your email.");

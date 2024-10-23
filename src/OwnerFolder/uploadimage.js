@@ -27,7 +27,7 @@ const ImageUploadForm = () => {
     formData.append('email', email);  // Send email instead of studentId
   
     try {
-      const res = await axios.post('http://localhost:8000/api/user/uploads', formData, {
+      const res = await axios.post('https://mcticomputerbackend.onrender.com/api/user/uploads', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

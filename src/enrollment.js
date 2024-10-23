@@ -41,7 +41,7 @@ function EnrollMent() {
 
           // Step 2: Submit the form data to your server or API
           axios
-            .post("http://localhost:8000/api/user/enrollregister", enrolldata)
+            .post("https://mcticomputerbackend.onrender.com/api/user/enrollregister", enrolldata)
             .then((response) => {
               console.log("Enrollment data submitted successfully:", response.data);
               alert("Email sent successfully");

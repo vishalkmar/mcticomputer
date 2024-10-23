@@ -28,7 +28,7 @@ function AdminLogin() {
     e.preventDefault();
     setLoading(true); // Show loader when submission starts
 console.log(credentials)
-    axios.post("http://localhost:8000/api/user/adminlogin", credentials)
+    axios.post("https://mcticomputerbackend.onrender.com/api/user/adminlogin", credentials)
       .then((res) => {
         alert("You are successfully logged in!");
         console.log(res.data);

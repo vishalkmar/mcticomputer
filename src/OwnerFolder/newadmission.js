@@ -77,7 +77,7 @@ function NewAdmission() {
 
     const updatedFormData = { ...formData, dob: formattedDate };
 
-    axios.post("http://localhost:8000/api/user/newuser", updatedFormData)
+    axios.post("https://mcticomputerbackend.onrender.com/api/user/newuser", updatedFormData)
       .then((res) => {
         console.log(res.data);
         setLoading(false); // Hide loader after successful submission

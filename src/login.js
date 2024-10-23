@@ -28,7 +28,7 @@ function Login() {
     e.preventDefault();
     setLoading(true); // Show loader when submission starts
 
-    axios.post("http://localhost:8000/api/user/login", credentials)
+    axios.post("https://mcticomputerbackend.onrender.com/api/user/login", credentials)
       .then((res) => {
         alert("You are successfully logged in!");
         console.log(res.data);

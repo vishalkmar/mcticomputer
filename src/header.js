@@ -19,7 +19,7 @@ function Header() {
                     <div className="row justify-content-between align-items-center ">
                         {/* First Column: Email and Phone */}
                         <div className="col-md-5 d-none d-md-flex nav navbar justify-content-start align-items-center">
-                            <Link to="mailto:vk722413@gmail.com" className="text-light me-2 nav-item text-decoration-none">
+                            <Link to="mcticomputeredu@gmail.com" className="text-light me-2 nav-item text-decoration-none">
                                 <FaEnvelope size={18} /> &nbsp; Email: mcticomputeredu@gmail.com
                             </Link>
                             <Link to="tel:+919891338787" className="text-light me-2 nav-item text-decoration-none">

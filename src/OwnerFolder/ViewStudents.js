@@ -9,7 +9,7 @@ function ViewStudents() {
   useEffect(() => {
     // Fetch students when the component loads
     axios
-      .get("http://localhost:8000/api/user/getuser")
+      .get("https://mcticomputerbackend.onrender.com/api/user/getuser")
       .then((res) => {
         setStudents(res.data);
       })
@@ -25,7 +25,7 @@ function ViewStudents() {
     
     if (check) {
       try {
-        const response = await axios.delete(`http://localhost:8000/api/user/deleteuser/${id}`);
+        const response = await axios.delete(`https://mcticomputerbackend.onrender.com/api/user/deleteuser/${id}`);
         console.log("Delete response:", response.data); // Debugging: Log the server response
   
         // Update the state after deletion
