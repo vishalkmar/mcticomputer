@@ -10,7 +10,7 @@ function TotalCourseService() {
   
   // Check if the current path is TotalCourseService
   const isTotalCoursePage = location.pathname === '/totalcourseservice'; // Adjust the path as needed
-
+  
   return (
     <>
       {isTotalCoursePage && <Header />}

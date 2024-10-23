@@ -43,7 +43,7 @@ function Contact() {
 
           // Step 2: Submit the form data to your server or API
           axios
-            .post("http://localhost:8000/api/user/mailregister", contact)
+            .post("https://mcticomputerbackend.onrender.com/api/user/mailregister", contact)
             .then((response) => {
               console.log("Email sent successfully:", response.data);
               alert("Email sent successfully");
